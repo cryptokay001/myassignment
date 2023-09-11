@@ -1,0 +1,173 @@
+body{
+    background-image: url('peaky1.jpg');
+    background-attachment: fixed;
+    
+}
+.mynavbar{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    
+    
+
+
+    
+}
+.red{
+    
+    color: red;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+li{
+    padding: 0px 12px;
+    margin-top: 30px;
+    padding-right: 20px;
+    
+    
+    
+}
+.btn{
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 5px ;
+    border-radius: 35px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 22px;
+    font-size: 16px;
+    margin: 30px
+    
+}
+.btn,li{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+h2{
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
+.content{
+    padding-left: 70px;
+}
+.content>h4{
+    color: plum;
+    font-size: 19px;
+
+}
+.content>h1{
+    color: white;
+    font-size: 3.5rem;
+}
+.content>h3{
+    font-size: 1.5rem;
+    color: white;
+}
+form {
+    height: 40px;
+    
+    border-radius: 30px;
+    background-color: white;
+    /* This bit sets up the horizontal layout */
+    display:flex;
+    flex-direction:row;
+    
+    /* This bit draws the box around it */
+    border:1px solid red;
+    width: 350px;
+    /* I've used padding so you can see the edges of the elements. */
+    padding:1px;
+  }
+  #mail {
+    border: 3px solid red;
+    border-radius: 30px;
+    /* Tell the input to use all the available space */
+    flex-grow:2;
+    /* And hide the input's outline, so the form looks like the outline */
+    border:none;
+  }
+  
+  /* remove the input focus blue box, it will be in the wrong place. */
+  #mail:focus {
+    outline: none;
+  }
+  
+  /* Add the focus effect to the form so it contains the button */
+  #mail:focus-within { 
+    outline: 1px solid red
+  }
+  .submitme {
+    /* Just a little styling to make it pretty */
+    border:1px solid red;
+    background:red;
+    color:white;
+    margin-right: 10px;
+    height: 30px;
+    margin-top: 5px;
+    border-radius: 20px;
+    width: 80px;
+    line-height: 22px;
+  }
+  @media (min-width: 319px) and (max-width: 480px) {
+    .top{
+       overflow: hidden;
+        width: 100%;
+        height: 70px; 
+        margin-bottom: 70px;  
+    }
+    .mynavbar{
+        padding-left: 10px;
+        padding-right: 10px;
+        display: flex;
+        overflow-x: auto;
+    }
+    .btn{
+        height: 20px;
+        margin: 40px;
+    }
+    h2{
+        font-size: 1.8rem;
+        margin-top: 40px;
+        margin-right: 15px;
+        
+    }
+    li{
+        padding: 16px;
+        padding-right: 5px;
+       }
+    .btn,li{
+        font-size: 18px;
+        font-weight: 300;
+    }
+    .content{
+        padding-left: 10px;
+        
+    }
+    .content>h4{
+        color: plum;
+        font-size: 17px;
+    
+    }
+    .content>h1{
+        color: white;
+        font-size: 3rem;
+    }
+   .submitme{
+    /*background-color: green;*/
+   }
+    
+  }
