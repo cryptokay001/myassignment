@@ -2,6 +2,8 @@ body{
     background-image: url('peaky1.jpg');
     background-attachment: fixed;
     
+
+    
 }
 .mynavbar{
     display: flex;
@@ -43,12 +45,12 @@ li{
     text-align: center;
     text-decoration: none;
     line-height: 22px;
-    font-size: 16px;
+    font-size: 18px;
     margin: 30px
     
 }
 .btn,li{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 400;
 }
 h2{
@@ -78,7 +80,7 @@ ul{
     color: white;
 }
 form {
-    height: 40px;
+    height: 60px;
     
     border-radius: 30px;
     background-color: white;
@@ -123,6 +125,12 @@ form {
     line-height: 22px;
   }
   @media (min-width: 319px) and (max-width: 480px) {
+    body{
+        background-position: center ;
+        background-size: auto;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
     .top{
        overflow: hidden;
         width: 100%;
@@ -140,18 +148,18 @@ form {
         margin: 40px;
     }
     h2{
-        font-size: 1.8rem;
+        font-size: 2.2rem;
         margin-top: 40px;
         margin-right: 15px;
         
     }
     li{
-        padding: 16px;
+        padding: 19px;
         padding-right: 5px;
        }
     .btn,li{
-        font-size: 18px;
-        font-weight: 300;
+        font-size: 20px;
+        font-weight: 500;
     }
     .content{
         padding-left: 10px;
@@ -159,7 +167,7 @@ form {
     }
     .content>h4{
         color: plum;
-        font-size: 17px;
+        font-size: 18px;
     
     }
     .content>h1{
@@ -167,7 +175,10 @@ form {
         font-size: 3rem;
     }
    .submitme{
+    font-size: 1.1rem;
     /*background-color: green;*/
+    height: 50px;
+    width: 100px;
    }
     
   }
